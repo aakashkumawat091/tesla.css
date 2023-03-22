@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.car-back {
+    background-image: url(model-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.nav-bar img {
+   width: 100px;
+   height: 32px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li a {
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.hading {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.hading h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.button a {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 13%;
+    height: 32px;
+    opacity: 0.5;
+    padding: 8px 0px 0px;
+}
+
+.button a:nth-child(2){
+    background-color: #fff;
+    color: #000;
+}
+
+.nav {
+    position: relative;
+}
+.nav a i {
+    margin-left: 740px;
+    padding-top: 21px;
+    font-size: 50px;
+    display: inline-block;
+    color: #fff;
+    
+}
+
+.nav a i::before {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    right: 51%;
+}
+
+.nav:hover a i:before {
+    position: absolute;
+    right: 51%;
+}
+.nav a i{ animation: icon 2s 1s linear alternate;}
+
+@keyframes icon{
+    0% {bottom: 0;right: 51%;}
+    50%{bottom: 0;right:25.5%;}
+    100%{bottom: 0;right:51%;}
+}
+
+ 
+.car-back2 {
+    background-image: url(model-y.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    
+}
+
+.hading2 {
+    text-align: center;
+    padding: 5%;
+}
+
+.hading2 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button2 {
+    margin-top: 23%;
+    text-align: center;
+}
+
+.button2 a {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 13%;
+    height: 32px;
+    opacity: 0.5;
+    padding: 8px 0px 0px;
+}
+
+.button2 a:nth-child(2){
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.car-back3 {
+    background-image: url(model-s.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    
+}
+
+.hading3 {
+    text-align: center;
+    padding: 5%;
+}
+
+.hading3 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button3 {
+    margin-top: 23%;
+    text-align: center;
+}
+
+.button3 a {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 13%;
+    height: 32px;
+    opacity: 0.5;
+    padding: 8px 0px 0px;
+}
+
+.button3 a:nth-child(2){
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.car-back4 {
+    background-image: url(model-x.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    
+}
+
+.hading4 {
+    text-align: center;
+    padding: 5%;
+}
+
+.hading4 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button4 {
+    margin-top: 23%;
+    text-align: center;
+}
+
+.button4 a {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 13%;
+    height: 32px;
+    opacity: 0.5;
+    padding: 8px 0px 0px;
+}
+
+.button4 a:nth-child(2){
+    background-color: #fff;
+    color: #000;
+}
+
+
+.car-back5 {
+    background-image: url(solar-roof.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    
+}
+
+.hading5 {
+    text-align: center;
+    padding: 5%;
+}
+
+.hading5 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button5 {
+    margin-top: 23%;
+    text-align: center;
+}
+
+.button5 a {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 13%;
+    height: 32px;
+    opacity: 0.5;
+    padding: 8px 0px 0px;
+}
+
+.button5 a:nth-child(2){
+    background-color: #fff;
+    color: #000;
+}
+
+
+.car-back6 {
+    background-image: url(solar-panel.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    
+}
+
+.hading6 {
+    text-align: center;
+    padding: 5%;
+}
+
+.hading6 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button6 {
+    margin-top: 23%;
+    text-align: center;
+}
+
+.button6 a {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 13%;
+    height: 32px;
+    opacity: 0.5;
+    padding: 8px 0px 0px;
+}
+
+.button6 a:nth-child(2){
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.car-back7 {
+    background-image: url(accessories.jpg);
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    
+}
+
+.hading7 {
+    text-align: center;
+    padding: 5%;
+}
+
+.hading7 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button7 {
+    margin-top: 23%;
+    text-align: center;
+}
+
+.button7 a {
+    display: inline-block;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 13%;
+    height: 32px;
+    opacity: 0.5;
+    padding: 8px 0px 0px;
+}
